@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,8 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "eslint": "^9.39.4",
+    "globals": "^17.5.0",
     "jest": "^30.3.0",
     "supertest": "^7.2.2"
   }
